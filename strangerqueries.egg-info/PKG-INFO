@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: strangerqueries
-Version: 0.1
+Version: 0.1.4
 Summary: A package to allow users to run impala and hive queries within python without leaving there enviroment and connecting to a database
 Home-page: https://github.com/ShaanAu/strangerqueries
 Author: Shaan Aucharagram
 Author-email: info@shaanaucharagram.com
 License: MIT
-Download-URL: https://github.com/ShaanAu/strangerqueries/archive/v_03.tar.gz
+Download-URL: https://github.com/ShaanAu/strangerqueries/archive/v_0.1.4.tar.gz
 Description: See `Official Github Repo <https://github.com/ShaanAu/strangerqueries>`_.
         
 Keywords: strangerqueries,hive,impala
