@@ -13,12 +13,11 @@ setup(
   author = 'Shaan Aucharagram',                   # Type in your name
   author_email = 'info@shaanaucharagram.com',      # Type in your E-Mail
   url = 'https://github.com/ShaanAu/strangerqueries',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/ShaanAu/strangerqueries/archive/v_0.1.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/ShaanAu/strangerqueries/archive/v_0.1.5.tar.gz',    # I explain this later on
   keywords = ['strangerqueries', 'hive', 'impala'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
-          'numpy',
-          'subprocess'
+          'numpy'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
