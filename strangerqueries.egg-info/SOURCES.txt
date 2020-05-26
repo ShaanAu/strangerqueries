@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+strangerqueries/__init__.py
+strangerqueries/queries.py
+strangerqueries.egg-info/PKG-INFO
+strangerqueries.egg-info/SOURCES.txt
+strangerqueries.egg-info/dependency_links.txt
+strangerqueries.egg-info/requires.txt
+strangerqueries.egg-info/top_level.txt
