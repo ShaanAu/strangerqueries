@@ -118,9 +118,9 @@ class beeline():
         self.input_sql = input_sql
         output_format = 'csv2'
         if sql_file:
-            command = f"impala-shell -B -i {db_name} --output_delimiter=, --print_header -f {input_sql} -o"
+            command = f"impala-shell -B -k -c -i {db_name} --output_delimiter=, --print_header -f {input_sql} -o"
         else:
-            command = f"impala-shell -B -i {db_name} --output_delimiter=, -o {output_file_name} --print_header -q"
+            command = f"impala-shell -B -k -c -i {db_name} --output_delimiter=, -o {output_file_name} --print_header -q"
         command_split = command.split()
         if not(sql_file):
             command_split.append(input_sql)
